@@ -23,6 +23,7 @@ body{
     background-image: url("assets/images/background-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100%;
+    height: auto;
 }
 
 
@@ -32,8 +33,9 @@ body{
     border-radius: 1rem;
     border: var(--White) solid 1px;
     box-shadow: 1px 1px 4px 8px rgba(73, 72, 72, 0.13);
+    width: 45%;
     padding: 1.5rem 2.5rem;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -89,4 +91,12 @@ h1 {
 
 .question-box-box h3:hover{
     color: var(--Grayish_purple)
+}
+
+@media(max-width: 375px){
+   body {
+       background: url("assets/images/background-pattern-mobile.svg") no-repeat;
+       background-size: 100%;
+   }
+
 }

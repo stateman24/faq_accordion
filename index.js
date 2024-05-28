@@ -1,7 +1,5 @@
 // Variable
-
 const faq = document.getElementsByClassName('question-box')
-
 for( let i = 0; i < faq.length; i++ ) {
     faq[i].addEventListener('click', function (){
         this.classList.toggle('active')
@@ -15,6 +13,7 @@ for( let i = 0; i < faq.length; i++ ) {
     })
 }
 
+// Key navigation
 let currentIndex = 0
 document.addEventListener("keydown", function (event){
     let image = faq[currentIndex].querySelector('.question-box-box img')
@@ -47,7 +46,6 @@ document.addEventListener("keydown", function (event){
             }
             break;
     }
-
 })
 
 
