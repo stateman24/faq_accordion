@@ -71,6 +71,7 @@ h1 {
     font-family: var(--font-family);
     font-weight: 700;
     color: var(--Dark_puple);
+    margin-right: auto;
 }
 .question-answer {
     font-family: var(--font-family);
@@ -86,3 +87,6 @@ h1 {
     height: auto;
 }
 
+.question-box-box h3:hover{
+    color: var(--Grayish_purple)
+}
